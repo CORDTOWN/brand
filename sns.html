@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, user-scalable=no" />
+      <title>Brand Resource Center - sns</title>
+      <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
+      <link rel="stylesheet" href="public/videojs/video-js.min.css" />
+      <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
+      <link rel="stylesheet" href="public/core.css" />
+      <link rel="stylesheet" href="public/theme.css" />
+  </head>
+
+  <body>
+
+    
+    <div id="container">
+    
+      <!--
+        Gallery title
+      -->
+      <header>
+        <h1><a href="index.html">Brand Resource Center</a></h1>
+      </header>
+    
+      <!--
+        Breadcrumbs of parent albums
+      -->
+      <nav class="breadcrumbs">
+    <a class="breadcrumb-item" href="index.html">Home</a>&nbsp;/&nbsp;<a class="breadcrumb-item" href="sns.html">sns</a>
+      </nav>
+    
+      <!--
+        Nested albums, if any
+      -->
+      <div id="albums">
+      </div>
+    
+      <!--
+        All photos and videos
+      -->
+      <ul id="media" class="clearfix">
+          
+            <li data-src="media/large/sns/facebook.png"
+                data-sub-html=""
+                data-download-url="media/original/sns/facebook.png"
+                
+                data-filename="facebook.png"
+          
+              >
+              <a href="media/original/sns/facebook.png">
+                <img src="media/thumbs/sns/facebook.png"
+                     width="120"
+                     height="120"
+                     alt="facebook.png" />
+              </a>
+            </li>      
+            <li data-src="media/large/sns/instagram.png"
+                data-sub-html=""
+                data-download-url="media/original/sns/instagram.png"
+                
+                data-filename="instagram.png"
+          
+              >
+              <a href="media/original/sns/instagram.png">
+                <img src="media/thumbs/sns/instagram.png"
+                     width="120"
+                     height="120"
+                     alt="instagram.png" />
+              </a>
+            </li>      
+            <li data-src="media/large/sns/twitter.png"
+                data-sub-html=""
+                data-download-url="media/original/sns/twitter.png"
+                
+                data-filename="twitter.png"
+          
+              >
+              <a href="media/original/sns/twitter.png">
+                <img src="media/thumbs/sns/twitter.png"
+                     width="120"
+                     height="120"
+                     alt="twitter.png" />
+              </a>
+            </li>      
+            <li data-src="media/large/sns/vlive.png"
+                data-sub-html=""
+                data-download-url="media/original/sns/vlive.png"
+                
+                data-filename="vlive.png"
+          
+              >
+              <a href="media/original/sns/vlive.png">
+                <img src="media/thumbs/sns/vlive.png"
+                     width="120"
+                     height="120"
+                     alt="vlive.png" />
+              </a>
+            </li>      
+            <li data-src="media/large/sns/weibo.png"
+                data-sub-html=""
+                data-download-url="media/original/sns/weibo.png"
+                
+                data-filename="weibo.png"
+          
+              >
+              <a href="media/original/sns/weibo.png">
+                <img src="media/thumbs/sns/weibo.png"
+                     width="120"
+                     height="120"
+                     alt="weibo.png" />
+              </a>
+            </li>      
+            <li data-src="media/large/sns/youtube.png"
+                data-sub-html=""
+                data-download-url="media/original/sns/youtube.png"
+                
+                data-filename="youtube.png"
+          
+              >
+              <a href="media/original/sns/youtube.png">
+                <img src="media/thumbs/sns/youtube.png"
+                     width="120"
+                     height="120"
+                     alt="youtube.png" />
+              </a>
+            </li>  </ul>
+    
+      <!--
+        Pagination
+      -->
+    
+      <!--
+        Zip file link
+      -->
+    
+    
+      <!--
+        Optional footer
+      -->
+      <footer>
+        <p>©️ CORDTOWN</p>
+      </footer>
+    
+    </div>
+    <!-- Video loader -->
+    <div id="videos">
+    </div>
+
+    <!-- jQuery -->
+    <script src="public/jquery.min.js"></script>
+    <!-- VideoJS -->
+    <script src="public/videojs/video.min.js"></script>
+    <!-- LightGallery -->
+    <script src="public/lightgallery/js/lightgallery.js"></script>
+    <script src="public/lightgallery/js/lg-autoplay.js"></script>
+    <script src="public/lightgallery/js/lg-pager.js"></script>
+    <script src="public/lightgallery/js/lg-thumbnail.js"></script>
+    <script src="public/lightgallery/js/lg-video.js"></script>
+    <script src="public/lightgallery/js/lg-exif.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        $("#media").lightGallery({
+          thumbWidth: 80,
+          controls: true,
+          loop : false,
+          download: true,
+          counter: true,
+          videojs: true
+        });
+      });
+    </script>
+
+
+  </body>
+
+</html>
